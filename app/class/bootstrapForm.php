@@ -1,6 +1,8 @@
 <?php
 
-class BootstrapForm extends Form {
+namespace Tutoriel;
+
+class BootstrapForm extends Form{
 
     protected function surround($html){
         return '<div class="form-group">'. $html . '</div>';
